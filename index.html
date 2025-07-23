@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Job Application Form</h1>
+        <form action="https://getform.io/f/your-form-endpoint-here" method="POST" enctype="multipart/form-data" target="_blank">
+
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="fullname" placeholder="Enter your full name" required />
+
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required />
+
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" placeholder="1234 Main St" />
+
+            <label for="city">City</label>
+            <input type="text" name="city" id="city" placeholder="City" />
+
+            <label for="zip">ZIP Code</label>
+            <input type="text" name="zip" id="zip" placeholder="ZIP" />
+
+            <label for="tel">Phone Number</label>
+            <input type="tel" name="tel" id="tel" placeholder="e.g. 123-456-7890" />
+
+            <label for="starting_date">Start Date</label>
+            <input type="date" name="starting_date" id="starting_date" />
+
+            <label for="file">Upload your CV</label>
+            <input type="file" name="file" id="file" />
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
